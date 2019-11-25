@@ -1,0 +1,223 @@
+/* General */
+body{
+  background-color: #f68922;
+}
+div, section, ::after, ::before{
+  position: absolute;
+}
+
+.base-sonic01{
+  width: 600px;
+  height: 434px;
+  margin-top: 150px;
+  margin-left: -300px;
+  left: 50%;
+  border: 2px solid #f68922;
+  z-index: 1;
+}
+
+.part01-sonic001{
+  width: 250px;
+  height: 101px;
+  margin-top: 69px;
+  margin-left: -82px;
+  left: 50%;
+  border-radius: 50%;
+  box-shadow: inset 179px 15px 0 0 #0f9afd;
+  transform: rotate(6deg) skew(0deg);
+  z-index: 1;
+}
+
+.part01-sonic001::before{
+  content: "";
+  width: 250px;
+  height: 101px;
+  margin-top: 41px;
+  margin-left: -120px;
+  left: 50%;
+  border-radius: 50%;
+  box-shadow: inset 158px 40px 0 0 #0f9afd;
+  transform: rotate(24deg) skew(0deg);
+}
+
+.part01-sonic001::after{
+  content: "";
+  width: 250px;
+  height: 127px;
+  margin-top: 111px;
+  margin-left: -137px;
+  left: 50%;
+  border-radius: 50%;
+  box-shadow: inset 154px 40px 0 0 #0f9afd;
+  transform: rotate(47deg) skew(0deg);
+}
+
+.part02-sonic001{
+  width: 205px;
+  height: 193px;
+  margin-top: 82px;
+  margin-left: -133px;
+  left: 50%;
+  background-color: #0f9afd;
+  border: 0.5px solid #0f9afd;
+  border-radius: 50%;
+  transform: rotate(6deg) skew(0deg);
+  z-index: 2;
+}
+
+.part02-sonic001::before{
+  content: "";
+  width: 13px;
+  height: 23px;
+  margin-top: 82px;
+  margin-left: -108px;
+  left: 50%;
+  background-color: #0f9afd;
+  border: 0.5px solid #0f9afd;
+  border-radius: 30px 0px 0px 15px;
+  transform: rotate(-12deg) skew(0deg);
+}
+
+.part02-sonic001::after{
+  content: "";
+  width: 24px;
+  height: 57px;
+  margin-top: -11px;
+  margin-left: -52px;
+  left: 50%;
+  background-color: #0f9afd;
+  border: 0.5px solid #0f9afd;
+  border-radius: 50%;
+  transform: rotate(16deg) skew(0deg);
+}
+
+.part03-sonic001{
+  width: 59px;
+  height: 104px;
+  margin-top: 128px;
+  margin-left: -127px;
+  left: 50%;
+  background-color: white;
+  border: 0.5px solid white;
+  border-radius: 145% 150% 80% 165%;
+  box-shadow: -2px 6px #0f9afd;
+  transform: rotate(21deg) skew(0deg);
+  z-index: 3;
+}
+
+.part03-sonic001::before{
+  content: "";
+  width: 60px;
+  height: 103px;
+  margin-top: 53px;
+  margin-left: 16px;
+  left: 50%;
+  background-color: #ffcaae;
+  border: 0.5px solid #ffcaae;
+  border-radius: 85% 0% 88% 0%;
+  transform: rotate(67deg) skew(0deg);
+}
+
+.part03-sonic001::after{
+  content: "";
+  width:53px;
+  height: 43px;
+  margin-top: 75px;
+  margin-left: 41px;
+  left: 50%;
+  background-color: #ffcaae;
+  border: 0.5px solid #ffcaae;
+  border-radius: 58% 35% 38% 0%;
+  box-shadow: 2px -23px #0f9afd;
+  transform: rotate(67deg) skew(0deg);
+}
+
+.part04-sonic001{
+  width: 30px;
+  height: 30px;
+  margin-top: 194px;
+  margin-left: -94px;
+  left: 50%;
+  border-radius: 20px 0px 0px 0px;
+  background-color: #0f9afd;
+  transform: rotate(78deg) skew(0deg);
+  z-index: 4;
+}
+
+.part04-sonic001::before{
+  content: "";
+  width: 53px;
+  height: 54px;
+  margin-top: 9px;
+  margin-left: -32px;
+  left: 50%;
+  border-radius: 145% 152% 80% 165%;
+  background-color: white;
+  box-shadow: 5px 9px white;
+  transform: rotate(157deg) skew(0deg);
+}
+
+.part04-sonic001::after{
+  content: "";
+  width: 41px;
+  height: 12px;
+  margin-top: 43px;
+  margin-left: -43px;
+  left: 50%;
+  background-color: black;
+  border: 0.5px solid #343436;
+  border-radius: 50%;
+  transform: rotate(12deg) skew(0deg);
+}
+
+.part05-sonic001{
+  width: 9px;
+  height: 43px;
+  margin-top: 205px;
+  margin-left: -134px;
+  left: 50%;
+  border: 0.5px solid #000000;
+  border-radius: 165% 181% 1% 165%;
+  background-color: #000000;
+  transform: rotate(-70deg) skew(0deg);
+  z-index: 1;
+}
+
+.part05-sonic001::before{
+  content: "";
+  width: 9px;
+  height: 28px;
+  margin-top: -6px;
+  margin-left: -4px;
+  left: 50%;
+  border: 0.5px solid #000000;
+  border-radius: 165% 181% 149% 165%;
+  background-color: #000000;
+  transform: rotate(-3deg) skew(0deg);
+}
+
+.part05-sonic001::after{
+  content: "";
+  width: 8px;
+  height: 34px;
+  margin-top: -5px;
+  margin-left: -7px;
+  left: 50%;
+  border: 0.5px solid #000000;
+  border-radius: 165% 181% 149% 165%;
+  background-color: #000000;
+  transform: rotate(5deg) skew(0deg);
+}
+
+.part06-sonic001{
+  width: 37px;
+  height: 97px;
+  margin-top: 139px;
+  margin-left: -104px;
+  left: 50%;
+  background-color: white;
+  border: 0.5px solid white;
+  border-radius: 0px 47px 39px 5px;
+  transform: rotate(9deg) skewY(-3deg);
+  z-index: 4;
+}
