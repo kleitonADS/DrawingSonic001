@@ -221,3 +221,10 @@ div, section, ::after, ::before{
   transform: rotate(9deg) skewY(-3deg);
   z-index: 4;
 }
+
+.video{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 500px;
+}
